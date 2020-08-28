@@ -19,6 +19,7 @@ export default function App() {
     <>
       <StatusBar barStyle="light-content" backgroundColor="#7159c1" />
       <SafeAreaView style={styles.container}>
+        <Text style={styles.repository}>Working</Text>
         <View style={styles.repositoryContainer}>
           <Text style={styles.repository}>Repository 1</Text>
 

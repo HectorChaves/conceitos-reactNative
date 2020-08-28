@@ -55,6 +55,7 @@ useEffect(() =>{
     <>
       <StatusBar barStyle="light-content" backgroundColor="#7159c1" />
       <SafeAreaView style={styles.container}>
+      {/* <Text style={styles.repository}>Working</Text> */}
         <FlatList
           data={repositories}
           keyExtractor={repository => repository.id}
